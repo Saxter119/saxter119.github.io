@@ -14,7 +14,10 @@ nav {
   position: relative;
   top: 15%;
 }
-
+a{
+  text-decoration: none;
+  color: white;
+}
 .Frase {
   color: white;
   font-size: 40px;
@@ -93,7 +96,8 @@ body {
   margin: 0;
   padding: 0;
 }
-h2{
+
+h2 {
   margin: 10px;
 }
 
@@ -179,11 +183,13 @@ header {
     flex-direction: column;
   }
 }
+
 @media screen and (max-width: 600px) {
   header nav label {
     margin-left: 1%;
     font-size: 2.5vw;
   }
+
   nav ul li a {
     float: none;
     font-size: 2.5vw;
@@ -191,3 +197,25 @@ header {
     align-content: center;
   }
 }
+
+.btn-summary {
+  background-color: steelblue;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 10px 25px;
+  border: none;
+  color: #FFF;
+  cursor: pointer;
+
+}
+
+/* @media screen and (max-width: 349px) {
+  header nav label {
+    margin-left: 1%;
+    font-size: 2.5vw;
+  }
+  nav ul li a {
+    font-size: 2.5vw;
+    margin-right:0;
+
+  } */
